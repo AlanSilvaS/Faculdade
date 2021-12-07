@@ -1,0 +1,19 @@
+CREATE TABLE clientes(
+    idCliente  int AUTO_INCREMENT PRIMARY KEY,
+    nomeCliente VARCHAR(50),
+    nascimento  DATE,
+    sexo        CHAR(1),
+    estadoCivil CHAR(1),
+    email         VARCHAR(50),
+    receberEmail BOOLEAN,
+    ddd1        CHAR(2),
+    telefone1       CHAR(9),
+    tipo1        CHAR(2),
+    ddd2       CHAR(2),
+    telefone2    CHAR(9),
+    tipo2        CHAR(2),
+    ddd3     CHAR(2),
+    telefone3    CHAR(9),
+    tipo3    CHAR(2),
+    observacao    TEXT
+  );

@@ -1,0 +1,44 @@
+<!doctype html> <!-- salvar como tabela.html -->
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tabela HTML</title>
+	</head>
+
+	<body>
+		<h1>Tabela HTML</h1>
+		
+		<table border='1'>
+			<!-- Abrindo a 1a linha da tabela (tr = table row) -->
+			<tr>
+				<th>ID</th>
+				<th>Nome</th>
+				<th>Tipo</th>
+				<th>Sexo</th>
+				<th>Idade</th>
+				<th>Dono</th>
+			</tr>
+			
+			<!-- 2a linha da tabela = 1a linha de dados -->
+			<tr>
+				<td>7</td>
+				<td>Cachorro Maluco</td>
+				<td>C</td>
+				<td>M</td>
+				<td>5</td>
+				<td>Marcos Antunes</td>
+			</tr>
+			
+			<!-- 3a linha da tabela = 2a linha de dados -->
+			<tr>
+				<td>8</td>
+				<td>Pernalonga</td>
+				<td>G</td>
+				<td>F</td>
+				<td>3</td>
+				<td>Ana Cristina</td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
